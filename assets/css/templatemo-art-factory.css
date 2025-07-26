@@ -907,6 +907,19 @@ about
   float: left;
 }
 
+video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+  video {
+    width: 100%;
+  }
+}
+
 #perkalian {
   padding: 120px 0px;
 }
